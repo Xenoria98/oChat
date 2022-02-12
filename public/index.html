@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Server Lobby</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"/>
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/socket.io.min.js"></script>
+	<script type="text/javascript" src="scripts/client.socket.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	
+	<div class = "user-input-name">
+		<div class="center">
+			<div>
+				<div class="center">Enter your name</div>
+			</div>
+			<div><input class = "user-text-name" maxlength = "15"></input></div>
+			<div class = "user-enter-name colorHover">
+				<div class="center">Proceed</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "chat-panel">
+		<iframe src="chat/chat.html" frameborder="0"></iframe>
+	</div>
+
+	<script type="text/javascript" src="scripts/client.lobby.js"></script>
+
+</body>
+</html>
